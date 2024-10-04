@@ -1,0 +1,5 @@
+concept_structure_miniature
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Миниатюра структуры] (* <- lang_ru;; *);
+=> nrel_note: [используется для украшения игрового поля. Это могут быть здания, деревья, предметы или любые другие элементы.] (* <- lang_ru;; *);;

@@ -1,0 +1,5 @@
+concept_wargame_tabletop_game
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Варгейм] (* <- lang_ru;; *);
+=> nrel_note: [игра, в которой моделируются военные сражения с использованием миниатюр и сложных правил.] (* <- lang_ru;; *);;

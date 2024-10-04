@@ -1,0 +1,5 @@
+concept_modular_board
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Модульная доска] (* <- lang_ru;; *);
+=> nrel_note: [состоит из взаимозаменяемых плиток или секций, которые можно переставлять для создания различных компоновок в каждой новой партии. Примеры: Carcassonne, Gloomhaven.] (* <- lang_ru;; *);;

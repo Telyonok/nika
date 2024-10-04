@@ -1,0 +1,5 @@
+concept_rpg_tabletop_game
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Ролевая настольная игра] (* <- lang_ru;; *);
+=> nrel_note: [игра, в которой игроки принимают на себя роли персонажей и участвуют в совместном нарративе.] (* <- lang_ru;; *);;

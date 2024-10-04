@@ -1,0 +1,5 @@
+concept_card_tabletop_game
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Карточная настольная игра] (* <- lang_ru;; *);
+=> nrel_note: [игра, в которой основным элементом являются карты. Игры могут быть как коллекционными, так и стандартными.] (* <- lang_ru;; *);;

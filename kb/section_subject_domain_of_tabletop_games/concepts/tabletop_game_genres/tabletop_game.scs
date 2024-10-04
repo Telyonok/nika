@@ -1,0 +1,17 @@
+concept_tabletop_game
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Настольная игра] (* <- lang_ru;; *);
+=> nrel_note: [игра, которая проводится на специальной игровой поверхности (доске) и включает в себя компоненты, такие как карты, миниатюры, игральные кости. Настольные игры обычно требуют участия нескольких игроков, которые взаимодействуют друг с другом в рамках правил игры.] (* <- lang_ru;; *);
+<= nrel_subdividing:
+    ...
+    (*
+        <- sc_node_tuple;;
+        -> concept_strategy_tabletop_game;;
+        -> concept_rpg_tabletop_game;;
+        -> concept_card_tabletop_game;;
+        -> concept_family_tabletop_game;;
+        -> concept_wargame_tabletop_game;;
+        -> concept_euro_tabletop_game;;
+        -> concept_filler_tabletop_game;;
+    *);;

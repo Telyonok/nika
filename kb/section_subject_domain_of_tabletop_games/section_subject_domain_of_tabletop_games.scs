@@ -1,0 +1,37 @@
+section_subject_domain_of_tabletop_games
+=> nrel_main_idtf:
+    [Раздел. Предметная область настольных игр] (* <- lang_ru;; *);
+    [Section. Subject domain of tabletop games] (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_tabletop_games = [*
+    subject_domain_of_tabletop_games
+    <- sc_node_struct;
+    => nrel_main_idtf:
+        [Предметная область настольных игр] (* <- lang_ru;; *);
+        [Subject domain of tabletop games] (* <- lang_en;; *);
+    <- subject_domain;
+    -> rrel_maximum_studied_object_class:
+        concept_tabletop_game;;
+    -> rrel_not_maximum_studied_object_class:
+        concept_miniature;
+        concept_card;
+        concept_board;
+        concept_die;;
+    -> rrel_explored_relation:
+        nrel_component;
+        nrel_publisher;
+        nrel_session_duration;;
+*];;
+
+section_subject_domain_of_tabletop_games
+-> rrel_key_sc_element:
+        nrel_component;
+        nrel_publisher;
+        nrel_session_duration;
+        concept_miniature;
+        concept_card;
+        concept_board;
+        concept_tabletop_game;
+        concept_die;
+	subject_domain_of_tabletop_games;;

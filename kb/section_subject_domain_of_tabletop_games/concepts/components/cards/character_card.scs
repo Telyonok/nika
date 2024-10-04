@@ -1,0 +1,5 @@
+concept_character_card
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Карта персонажа] (* <- lang_ru;; *);
+=> nrel_note: [карта, представляющая персонажа с уникальными способностями и характеристиками.] (* <- lang_ru;; *);;

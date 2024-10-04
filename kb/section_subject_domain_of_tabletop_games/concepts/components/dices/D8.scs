@@ -1,0 +1,4 @@
+concept_D8
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [8-гранная кость] (* <- lang_ru;; *);;

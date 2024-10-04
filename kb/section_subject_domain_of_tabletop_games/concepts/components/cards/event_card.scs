@@ -1,0 +1,5 @@
+concept_event_card
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Карта события] (* <- lang_ru;; *);
+=> nrel_note: [представляет собой случайное событие, которое может произойти в ходе игры и влиять на её ход.] (* <- lang_ru;; *);;

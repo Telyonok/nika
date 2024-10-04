@@ -1,0 +1,5 @@
+concept_strategy_tabletop_game
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Стратегическая настольная игра] (* <- lang_ru;; *);
+=> nrel_note: [игра, в которой игроки принимают решения, основываясь на долгосрочных планах и стратегии.] (* <- lang_ru;; *);;

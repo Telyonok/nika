@@ -1,0 +1,5 @@
+concept_fixed_board
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Фиксированная доска] (* <- lang_ru;; *);
+=> nrel_note: [имеют статичный дизайн, который остается неизменным для каждой игровой сессии. Примеры: Монополия, Шахматы.] (* <- lang_ru;; *);;

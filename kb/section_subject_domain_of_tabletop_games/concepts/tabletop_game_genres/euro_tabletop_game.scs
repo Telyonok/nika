@@ -1,0 +1,5 @@
+concept_euro_tabletop_game
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Евро-настольная игра] (* <- lang_ru;; *);
+=> nrel_note: [игра, в которой игроки управляют ресурсами и принимают решения, основанные на экономических принципах. ] (* <- lang_ru;; *);;

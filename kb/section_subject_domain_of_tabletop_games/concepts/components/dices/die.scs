@@ -1,0 +1,15 @@
+concept_die
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Игральная кость] (* <- lang_ru;; *);
+=> nrel_note: [кубик или другой многогранник, используемый в настольных играх для генерации случайных чисел.] (* <- lang_ru;; *);
+<= nrel_subdividing:
+    ...
+    (*
+        <- sc_node_tuple;;
+        -> concept_D20;;
+        -> concept_D10;;
+        -> concept_D8;;
+        -> concept_D6;;
+        -> concept_D4;;
+    *);;

@@ -1,0 +1,5 @@
+concept_scenario_card
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Карта сценария] (* <- lang_ru;; *);
+=> nrel_note: [карта, использующаяся для создания определённых условий или сценариев в игре.] (* <- lang_ru;; *);;

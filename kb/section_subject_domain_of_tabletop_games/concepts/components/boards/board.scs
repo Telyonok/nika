@@ -1,0 +1,14 @@
+concept_board
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Доска] (* <- lang_ru;; *);
+=> nrel_note: [специальная поверхность, на которой проходит игра.] (* <- lang_ru;; *);
+<= nrel_subdividing:
+    ...
+    (*
+        <- sc_node_tuple;;
+        -> concept_fixed_board;;
+        -> concept_player_board;;
+        -> concept_modular_board;;
+        -> concept_map_board;;
+    *);;

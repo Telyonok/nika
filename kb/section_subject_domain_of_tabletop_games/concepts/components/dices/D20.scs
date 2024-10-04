@@ -1,0 +1,4 @@
+concept_D20
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [20-гранная кость] (* <- lang_ru;; *);;

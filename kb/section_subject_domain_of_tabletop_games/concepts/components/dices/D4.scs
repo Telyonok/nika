@@ -1,0 +1,4 @@
+concept_D4
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [4-гранная кость] (* <- lang_ru;; *);;

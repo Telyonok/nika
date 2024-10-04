@@ -1,0 +1,14 @@
+concept_miniature
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Миниатюра] (* <- lang_ru;; *);
+=> nrel_note: [уменьшенная модель или фигурка, используемая в настольных играх для представления персонажей, юнитов или объектов.] (* <- lang_ru;; *);
+<= nrel_subdividing:
+    ...
+    (*
+        <- sc_node_tuple;;
+        -> concept_character_miniature;;
+        -> concept_creature_miniature;;
+        -> concept_structure_miniature;;
+        -> concept_vehicle_miniature;;
+    *);;

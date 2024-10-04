@@ -1,0 +1,5 @@
+concep_marker_card
+<- sc_node_class;
+<- concept_wit_entity;
+=> nrel_main_idtf: [Маркерная карта] (* <- lang_ru;; *);
+=> nrel_note: [карта, используемая для отслеживания состояния игры, таких как здоровье или ресурсы.] (* <- lang_ru;; *);;
